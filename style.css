@@ -1,0 +1,39 @@
+/*
+Theme Name: prueba-asdrubal-pablo-fuentes
+Author: Pablo Fuentes
+*/
+body {
+  background-color: #f6f7fd;
+}
+
+:root {
+  --h2-color: #8d096b;
+  --h4-color: #9195a2;
+}
+
+h2 {
+  color: var(--h2-color);
+  font-size: 43.2px;
+  font-weight: 700;
+  line-height: 43.2px;
+}
+
+h3 {
+  color: var(--h2-color) !important;
+  font-size: 36px;
+  line-height: 57.6px;
+}
+
+h4 {
+  color: var(--h4-color);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.custom-hr {
+  height: 6px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #31d2f2;
+  border: none;
+}
