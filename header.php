@@ -35,7 +35,7 @@
         <div
           class="bg-dark bg-opacity-50 p-4 rounded shadow-lg d-inline-block"
         >
-          <h1 id="titulo-dinamico mb-3 text-white">Posiciona y aparece con tu web en Google</h1>
+          <h1 id="titulo-dinamico" class="mb-3 text-white">Posiciona y aparece con tu web en Google</h1>
           <h4 class="mb-3 text-white d-none d-md-block">
             Despreocupáte del mundo de la
             <span style="color: #31d2f2">web</span>, lo hacemos por ti
