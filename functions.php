@@ -14,6 +14,13 @@ function mi_tema_scripts() {
         '5.3.0' 
     );
 
+    wp_enqueue_style(
+        'bootstrap-icons',
+        'https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css',
+        array(),
+        '1.10.5' 
+    );
+
     wp_enqueue_script(
         'bootstrap-js',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js',
@@ -29,6 +36,7 @@ function mi_tema_scripts() {
         '1.0',
         true
     );
+
     wp_enqueue_style('theme-style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'mi_tema_scripts');
