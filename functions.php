@@ -6,7 +6,17 @@ function mi_tema_config() {
 }
 add_action('wp', 'mi_tema_config');
 
+function font_doppio() {
+    wp_enqueue_style( 
+        'fuente-doppio-one',
+        'https://fonts.googleapis.com/css2?family=Doppio+One&display=swap', 
+        array(),
+        null );
+}
+add_action( 'wp_enqueue_scripts', 'font_doppio' );
+
 function mi_tema_scripts() {
+    
     wp_enqueue_style(
         'bootstrap-css',
         'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
