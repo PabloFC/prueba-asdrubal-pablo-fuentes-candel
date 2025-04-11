@@ -7,11 +7,13 @@ function mi_tema_config() {
 add_action('wp', 'mi_tema_config');
 
 function font_doppio() {
+   
     wp_enqueue_style( 
         'fuente-doppio-one',
         'https://fonts.googleapis.com/css2?family=Doppio+One&display=swap', 
         array(),
-        null );
+        null 
+    );
 }
 add_action( 'wp_enqueue_scripts', 'font_doppio' );
 
