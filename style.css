@@ -4,12 +4,19 @@ Author: Pablo Fuentes
 */
 body {
   background-color: #f6f7fd;
-  font-family: "Doppio One", sans-serif;
 }
 
 :root {
   --h2-color: #8d096b;
   --h4-color: #9195a2;
+}
+
+.fondo-nav {
+  background-color: #261622 !important;
+}
+
+.navbar-toggler {
+  color: #f6f7fd !important;
 }
 
 h2 {
@@ -37,4 +44,17 @@ h4 {
   margin: 0 auto;
   background-color: #31d2f2;
   border: none;
+}
+.nav-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #f6f7fd;
+}
+
+.nav-link:hover {
+  color: #31d2f2;
+}
+button .navbar-toggler-icon {
+  color: white !important;
+  margin: 5px;
 }

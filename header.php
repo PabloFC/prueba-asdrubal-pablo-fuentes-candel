@@ -6,19 +6,26 @@
 </head>
 <header>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link"  href="#">Servicios</a>
-              <a class="nav-link" href="#">Equipo</a>
-              <a class="nav-link" href="#">Referencias</a>
+      <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+        <div class="container-fluid d-block d-lg-flex justify-content-xl-around">
+          <div>
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/asdrubal-logo.png" width="250px" alt="logo">
+          </div>
+
+          <div class="mt-2 mt-xl-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link"  href="#">Servicios</a>
+                <a class="nav-link" href="#">Equipo</a>
+                <a class="nav-link" href="#">Referencias</a>
+              </div>
             </div>
           </div>
+        
         </div>
       </nav>
       <!-- Navbar -->
