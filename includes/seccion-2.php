@@ -1,4 +1,4 @@
-<section class="seccion-normal mx-auto">
+<section style="max-width:1400px;" class="seccion-normal mx-auto">
     <div>
         <h2 class="text-center pb-1">El Equipo</h2>
         <h4 class="text-center pb-1">Los que van a tratar tu empresa con la importancia que se merece</h4>
